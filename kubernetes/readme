@@ -1,0 +1,21 @@
+# README for Kubernetes Deployment  
+
+This repository contains Kubernetes configuration files for deploying and managing containerized applications. Kubernetes automates deployment, scaling, and operations of application containers across clusters.  
+
+## Features  
+- Deployment manifests for microservices  
+- ConfigMaps and Secrets management  
+- Auto-scaling and load balancing  
+- Persistent storage support  
+
+## Usage  
+1. Apply configurations:  
+   ```sh
+   kubectl apply -f deployment.yaml
+   ```  
+2. Verify deployment:  
+   ```sh
+   kubectl get pods
+   ```  
+
+Ensure `kubectl` and a Kubernetes cluster are set up before deployment. Modify YAML files to suit your requirements.
